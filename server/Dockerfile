@@ -1,4 +1,5 @@
-FROM registry.access.redhat.com/ubi8-minimal
+FROM centos:centos7
+#FROM registry.access.redhat.com/ubi8-minimal
 
 ENV KEYCLOAK_VERSION 8.0.0
 ENV JDBC_POSTGRES_VERSION 42.2.5
